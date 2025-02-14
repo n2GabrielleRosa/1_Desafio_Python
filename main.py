@@ -66,7 +66,8 @@ num1 = int(input("Digite o primeiro número:"))
 num2 = int(input("Digite o segundo número:"))
 
 soma = num1 + num2
-print(soma)
+
+print(f"A soma de {num1} e {num2} é: ", soma)
 
 
 # Missão 5: Recuperando o Cofre de Segurança 🔒
@@ -98,8 +99,7 @@ while cont<=10:
 lista = [8,3,10,1,5]
 lista.sort()
 
-for i in lista:
-    print(i)
+print("Números em ordem crescente: ", lista)
 
 
 # Missão 8: Acessando os Registros de Alunos 🏷️
